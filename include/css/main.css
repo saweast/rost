@@ -1,0 +1,12 @@
+li {
+  list-style: none;
+}
+div.wrapper {
+  margin: 0 auto;
+  width: 980px;
+  min-width: 980px;
+  overflow: visible
+}
+div.header-main {
+
+}
