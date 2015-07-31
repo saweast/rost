@@ -4,12 +4,16 @@ body {
 li {
   list-style: none;
 }
+
 div.wrapper {
   margin: 0 auto;
   width: 980px;
   min-width: 980px;
   overflow: visible;
 }
+/**/
+/*header*/
+/**/
 .header-bg {
   position: absolute;
   left: 50%;
@@ -94,4 +98,100 @@ div.wrapper {
   position: absolute;
   left: 980px;
   top: 50px;
+}
+/**/
+/*servises*/
+/**/
+.block {
+  position: relative;
+}
+.servises-bg {
+  position: absolute;
+  z-index: -1;
+  left: -30px;
+  top: -15px;
+}
+.servises .wrap-h1 {
+  margin-top: -20px;
+}
+.servises .wrap-h1 h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  margin-left: 180px;
+  margin-top: 35px;
+}
+.servises .wrap-h1 h1:before {
+  content: '';
+  height: 47px;
+  width: 47px;
+  background-image: url('/include/images/wrench.png');
+  display: inline-block;
+  position: absolute;
+  left: -90px;
+  top: -5px;
+}
+.triangles {
+  display: block;
+  clear: both;
+  margin: 120px 0 50px 95px;
+  height: 170px;
+}
+.triangle-block {
+  float:left;
+  width: 110px;
+  height: auto;
+}
+.img-bg {
+  position: absolute;
+}
+.img-main {
+  position: relative;
+  top: 70px;
+  left: 60px
+}
+.triangle-block:nth-child(4) .img-main {
+  top: 20px;
+  left: 55px;
+}
+.triangle-block:nth-child(2) .img-main {
+  top: 20px;
+  left: 75px;
+}
+.triangle-block:nth-child(6) .img-main {
+  top: 20px;
+  left: 65px;
+}
+.servises-category {
+  display: block;
+  float: left;
+  width: 300px;
+  margin: 0 13px;
+  text-align: center;
+}
+.servises-category h2 {
+  color: #369;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  height: 50px;
+}
+.servises-category li {
+  color: #4c4c4c;
+  margin-bottom: 35px;
+  position: relative;
+}
+.servises-category li:nth-child(1):after,
+.servises-category li:nth-child(2):after {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: 30px;
+  left: 140px;
+  background-color: #ec008c;
 }

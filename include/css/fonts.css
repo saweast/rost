@@ -3,3 +3,9 @@
   src: url('/include/fonts/ubuntu/Ubuntu-C.ttf');
   font-weight: 400;
 }
+@font-face {
+  font-family: ubuntu-l;
+  src: url('/include/fonts/ubuntu/Ubuntu-L.ttf');
+  font-weight: 400;
+}
+
