@@ -393,7 +393,42 @@ div.wrapper {
 }
 .tv .leaders-logos {
   display: block;
+  position: relative;
 }
 .tv .leaders-logos .abs {
+  position: absolute;
+  top: -140px;
+  left: -100px;
+}
+.tv .leaders {
+  margin: 50px 0 0 220px;
 
+}
+.tv .leaders h2 {
+  color: #ea7912;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-left: 160px;
+  margin-bottom: 35px;
+}
+.tv .leaders-logos li {
+  width: auto;
+  display: inline-block;
+  margin: 0 15px;
+}
+.tv .tv-garantee-item {
+  font-size: 14px;
+  color: #255889;
+  margin-bottom: 47px;
+}
+.tv .tv-garantee-item {
+
+}
+.tv .tv-garantees {
+  margin: 90px 0 0 473px
+}
+.tv .tv-garantee-item span {
+  text-transform: uppercase;
+  font-weight: bolder;
 }
