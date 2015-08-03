@@ -727,3 +727,61 @@ div.wrapper {
 /********************************************************/
 /*internet*/
 /********************************************************/
+.internet {
+  position: relative;
+}
+.internet .abs {
+  position: absolute;
+  z-index: -999;
+  left: -50%;
+}
+.internet .wrap-h1 {
+  position: relative;
+}
+.internet .wrap-h1 .abs {
+  position: absolute;
+  top: -20px;
+  left: -30px
+}
+.internet .wrap-h1 h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  margin-left: 130px;
+}
+.internet .wrap-h1 h1:before {
+  content: '';
+  height: 37px;
+  width: 28px;
+  background-image: url('/include/images/cursor.png');
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  top: 0px;
+}
+.internet .partners {
+  position: relative;
+  float: right;
+  width: 60%;
+  background: url("/include/images/hands.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+.internet .partners h2 {
+  position: relative;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #71ad67;
+  top: -10px;
+  display: inline-block;
+}
+.internet .partners div {
+  display: inline-block;
+  margin: 0 15px;
+  margin-top: 10px;
+}
+
