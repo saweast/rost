@@ -993,3 +993,33 @@ div.wrapper {
 /************************************************************/
 /*clients*/
 /************************************************************/
+.clients {
+  position: relative;
+}
+.clients .wrap-h1 {
+  position: relative;
+}
+.clients .wrap-h1 .abs {
+  position: absolute;
+  top: -15px;
+  left: 150px;
+  z-index: -1;
+}
+.clients .wrap-h1 h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: white;
+  margin-left: 330px;
+  margin-top: -15px;
+}
+.clients .wrap-h1 h1:before {
+  content: "";
+  height: 46px;
+  width: 58px;
+  background-image: url('/include/images/heart.png');
+  display: inline-block;
+  position: absolute;
+  left: 220px;
+  top: -5px;
+}
