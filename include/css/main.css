@@ -504,7 +504,8 @@ div.wrapper {
 }
 .radio .benefits-items p {
   margin-top: 60px;
-  margin-left: 20px
+  margin-left: 20px;
+  color: #255889;
 }
 .radio .benefits li.benefits-item dd {
   padding-left: 20px;
