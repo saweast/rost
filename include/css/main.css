@@ -731,6 +731,7 @@ div.wrapper {
 /********************************************************/
 .internet {
   position: relative;
+  height: 695px
 }
 .internet .abs {
   position: absolute;
@@ -810,7 +811,7 @@ div.wrapper {
 .internet .types > ul > li:nth-child(1) h3{
   position: relative;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   padding-left: 70px;
   text-transform: uppercase;
   display: inline;
@@ -844,12 +845,13 @@ div.wrapper {
 }
 .internet .types > ul > li:nth-child(2) {
   margin-top: 45px;
-  position: relative
+  position: relative;
+  height: 50px;
 }
 .internet .types > ul > li:nth-child(2) h3 {
   position: relative;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   padding-right: 70px;
   text-transform: uppercase;
   display: inline;
@@ -867,7 +869,7 @@ div.wrapper {
 }
 .internet .types > ul > li:nth-child(2) ul {
   position: absolute;
-  left: 250px;
+  left: 350px;
   top: -15px;
 }
 .internet .types > ul > li:nth-child(2) ul li {
@@ -891,3 +893,103 @@ div.wrapper {
   left: 0;
   top: -50px
 }
+.internet .types > ul > li:nth-child(3) {
+  position: relative;
+  margin-top: 50px;
+  height: 50px;
+}
+.internet .types > ul > li:nth-child(3) h3 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 100px;
+}
+.internet .types > ul > li:nth-child(3) h3:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-image: url("/include/images/three.png");
+  height: 94px;
+  width: 62px;
+  left: -10px;
+  top: -25px;
+}
+.internet .types > ul > li:nth-child(3) ul {
+  position: absolute;
+  left: 300px;
+  top: -10px;
+}
+.internet .types > ul > li:nth-child(3) > ul > li {
+  color: #255889;
+  font-size: 16px;
+  text-transform: none;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.internet .types > ul > li:nth-child(3) > ul > li:before {
+  content: '';
+  height: 6px;
+  width: 6px;
+  background: url('/include/images/dot-white.png');
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.internet .types > ul > li:nth-child(3) .abs {
+  position: absolute;
+  z-index: 5;
+  top: -40px;
+  left: 800px;
+}
+.internet .types > ul > li:nth-child(4) {
+  position: relative;
+  margin-top: 50px;
+  height: 50px
+}
+.internet .types > ul > li:nth-child(4) h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  float: right;
+  margin-top: -0px;
+  padding-right: 70px;
+}
+.internet .types > ul > li:nth-child(4) h3:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 108px;
+  width: 79px;
+  background-image: url("/include/images/four.png");
+  top: -50px;
+  right: -40px;
+}
+.internet .types > ul > li:nth-child(4) > ul {
+  position: absolute;
+  left: 300px;
+  text-align: right;
+  top: -20px;
+}
+.internet .types > ul > li:nth-child(4) > ul li {
+  margin-bottom: 10px;
+  position: relative;
+  color: #255889;
+}
+.internet .types > ul > li:nth-child(4) > ul li:after {
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-image: url('/include/images/dot-white.png');
+  top: 5px;
+  right: -20px;
+}
+.internet .types > ul > li:nth-child(4) .abs {
+  left: 100px;
+  z-index: 5;
+}
+/************************************************************/
+/*clients*/
+/************************************************************/
