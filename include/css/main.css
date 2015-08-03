@@ -1,4 +1,7 @@
 body {
+  width: 100%;
+  height: auto;
+  overflow-y: none;
   font-family: ubuntu, arial;
   color: #4c4c4c;
 }
@@ -445,6 +448,7 @@ div.wrapper {
 /**/
 .radio {
   position: relative;
+  height: 585px
 }
 .radio .abs {
   position: absolute;
@@ -501,10 +505,12 @@ div.wrapper {
 .radio .benefits-items {
   width: auto;
   display: inline-block;
+  float: left;
 }
 .radio .benefits-items p {
   margin-top: 60px;
   margin-left: 20px;
+  font-size: 14px;
   color: #255889;
 }
 .radio .benefits li.benefits-item dd {
@@ -531,4 +537,193 @@ div.wrapper {
   width: 11px;
   left: 0;
   top: 5px;
+}
+.radio .radio-list {
+/*  float: right;*/
+  position: relative;
+  display: inline-block;
+}
+.radio .radio-list .abs {
+  position: absolute;
+  left: 20px;
+}
+.radio .radio-item p{
+  position: relative;
+  line-height: 1.2;
+  color: #255889;
+}
+
+.radio .radio-item:nth-child(1) .radio-item-img {
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(1) p:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  left: -25px;
+}
+.radio .radio-item:nth-child(1) p {
+  position: absolute;
+  top: 90px;
+  left: 115px;
+}
+
+.radio .radio-item:nth-child(2) .radio-item-img {
+  position: absolute;
+  top: 75px;
+  left: 220px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(2) p:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  left: -25px;
+}
+.radio .radio-item:nth-child(2) p {
+  position: absolute;
+  top: 20px;
+  left: 205px;
+}
+
+.radio .radio-item:nth-child(3) .radio-item-img {
+  position: absolute;
+  top: 35px;
+  left: 305px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(3) p:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  left: -25px;
+}
+.radio .radio-item:nth-child(3) p {
+  position: absolute;
+  top: -55px;
+  left: 220px;
+  width: 170px;
+}
+
+.radio .radio-item:nth-child(4) .radio-item-img {
+  position: absolute;
+  top: -25px;
+  left: 420px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(4) p:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  left: -25px;
+}
+.radio .radio-item:nth-child(4) p {
+  position: absolute;
+  top: -105px;
+  left: 440px;
+  width: 90px;
+}
+
+.radio .radio-item:nth-child(5) .radio-item-img {
+  position: absolute;
+  top: 275px;
+  left: 90px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(5) p:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  left: 25px;
+  top: -25px
+}
+.radio .radio-item:nth-child(5) p {
+  position: absolute;
+  top: 390px;
+  left: 30px;
+  width: 80px;
+}
+
+.radio .radio-item:nth-child(6) .radio-item-img {
+  position: absolute;
+  top: 225px;
+  left: 198px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(6) p:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  right: 5px;
+}
+.radio .radio-item:nth-child(6) p {
+  position: absolute;
+  top: 330px;
+  left: 220px;
+  width: 150px;
+}
+
+.radio .radio-item:nth-child(7) .radio-item-img {
+  position: absolute;
+  top: 155px;
+  left: 315px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(7) p:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  right: 5px;
+}
+.radio .radio-item:nth-child(7) p {
+  position: absolute;
+  top: 270px;
+  left: 330px;
+  width: 110px;
+}
+
+.radio .radio-item:nth-child(8) .radio-item-img {
+  position: absolute;
+  top: 95px;
+  left: 420px;
+  z-index: 5;
+}
+.radio .radio-item:nth-child(8) p:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background: url('/include/images/s-ppl.png');
+  right: 5px;
+}
+.radio .radio-item:nth-child(8) p {
+  position: absolute;
+  top: 200px;
+  left: 440px;
+  width: 110px;
 }
