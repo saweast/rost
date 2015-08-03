@@ -784,4 +784,108 @@ div.wrapper {
   margin: 0 15px;
   margin-top: 10px;
 }
-
+.internet .types {
+  margin: 180px 0 0;
+  position: relative;
+}
+.internet .types > ul > li:nth-child(1) {
+  height: 80px;
+}
+.internet .types > ul > li:nth-child(1):before {
+  content: "";
+  background: url('/include/images/one.png');
+  display: inline-block;
+  position: absolute;
+  height: 94px;
+  width: 48px;
+  left: -20px;
+  top: -25px
+}
+.internet .types > ul > li:nth-child(1) .abs {
+  top: -70px;
+  left: 750px;
+}
+.internet .types > ul > li:nth-child(1) h3{
+  position: relative;
+  color: white;
+  font-size: 24px;
+  padding-left: 70px;
+  text-transform: uppercase;
+  display: inline;
+  width: 100px;
+}
+.internet .types > ul > li:nth-child(1) > ul {
+  position: absolute;
+  left: 200px;
+  top: -5px;
+  width: auto;
+}
+.internet .types > ul > li:nth-child(1) > ul > li {
+  color: #255889;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: none;
+  width: 35%;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.internet .types > ul > li:nth-child(1) > ul > li:before {
+  content: '';
+  height: 6px;
+  width: 6px;
+  background: url('/include/images/dot-white.png');
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.internet .types > ul > li:nth-child(2) {
+  margin-top: 45px;
+  position: relative
+}
+.internet .types > ul > li:nth-child(2) h3 {
+  position: relative;
+  color: white;
+  font-size: 24px;
+  padding-right: 70px;
+  text-transform: uppercase;
+  display: inline;
+  float: right;
+}
+.internet .types > ul > li:nth-child(2) h3:after {
+  content: "";
+  background-image: url('/include/images/two.png');
+  width: 59px;
+  height: 92px;
+  display: inline-block;
+  position: absolute;
+  top: -40px;
+  right: -10px;
+}
+.internet .types > ul > li:nth-child(2) ul {
+  position: absolute;
+  left: 250px;
+  top: -15px;
+}
+.internet .types > ul > li:nth-child(2) ul li {
+  color: #255889;
+  text-align: right;
+  padding-right: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.internet .types > ul > li:nth-child(2) ul li:after {
+  content: "";
+  height: 6px;
+  width: 6px;
+  background-image: url('/include/images/dot-white.png');
+  display: inline-block;
+  right: 0;
+  top: 5px;
+  position: absolute;
+}
+.internet .types > ul > li:nth-child(2) img {
+  left: 0;
+  top: -50px
+}
