@@ -1023,3 +1023,41 @@ div.wrapper {
   left: 220px;
   top: -5px;
 }
+
+#owl-demo {
+  margin-top: 50px;
+}
+#owl-demo .owl-pagination {
+  display: none;
+}
+#owl-demo .owl-prev {
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  height: 27px;
+  width: 7px;
+  border-radius: 0;
+  color: transparent;
+  background: none;
+  background-image: url("/include/images/arrow1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#owl-demo .owl-next {
+  position: absolute;
+  right: -50px;
+  top: 50px;
+  height: 27px;
+   width: 7px;
+  border-radius: 0;
+  color: transparent;
+  background: none;
+  background-image: url("/include/images/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#owl-demo .item{
+    padding: 30px 0px;
+    margin: 5px;
+    text-align: center;
+}
