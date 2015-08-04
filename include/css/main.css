@@ -390,7 +390,13 @@ header .header-main {
 .tv .abs {
   position: absolute;
   left: -50%;
-  z-index: -999;
+  z-index: -1000;
+}
+.tv > .abs {
+  left: -50%;
+    width: 197.18%;
+    height: 725px;
+    right: 0;
 }
 .tv .wrap-h1 .abs {
   z-index: -888;
