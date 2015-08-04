@@ -98,6 +98,7 @@ header .header-main {
 }
 .nayword-block img {
   top: -35px;
+  left: -1px;
 }
 .nayword-bg {
   position: absolute;
@@ -107,7 +108,7 @@ header .header-main {
   margin-left: 70px;
   font-size: 18px;
   color: #336699;
-  width: 100%;
+  width: 620px;
   position: relative;
   z-index: 2;
 }
@@ -119,7 +120,7 @@ header .header-main {
   margin-left: 565px;
   margin-top: 40px;
   font-size: 18px;
-  width: 100%;
+  width: auto;
   color: white;
 }
 .fb {
@@ -233,8 +234,8 @@ header .header-main {
   position: absolute;
 /*  left:50%;*/
 /*  margin-left: -1000px;*/
-  left: -50%;
-  width: 150%;
+  left: 0;
+  width: 100%;
   height: 1637px;
   z-index: -1000;
 }
@@ -393,10 +394,14 @@ header .header-main {
   z-index: -1000;
 }
 .tv > .abs {
-  left: -50%;
-    width: 197.18%;
-    height: 725px;
-    right: 0;
+/*  left: -50%;*/
+  width: 100%;
+  height: 725px;
+  right: 0;
+  left: 0;
+}
+.tv .wrap-h1 {
+  position: relative;
 }
 .tv .wrap-h1 .abs {
   z-index: -888;
@@ -467,39 +472,44 @@ header .header-main {
 .tv .tv-family {
   display: inline-block;
   position: absolute;
-  top: 220px;
+  margin-top: -360px;
 }
 .tv {
   height: 697px;
+  position: static;
 }
 /********************************************************/
 /*radio*/
 /********************************************************/
 .radio {
-  position: relative;
-  height: 585px
+/*  position: relative;*/
+  height: 690px;
+  position: static;
+  padding-top: 1px;
 }
 .radio .abs {
   position: absolute;
   left: 50%;
   margin-left: -1001px;
   z-index: -1000;
-  top: -105px;
+/*  top: -105px;*/
 }
 .radio > .abs {
-  left: -50%;
-  width: 197.12%;
-  margin-left: 0;
-  height: 692px;
+/*  left: -50%;*/
+  left: 0;
+    width: 100%;
+    margin-left: 0;
+    height: 692px;
 }
 .radio .wrap-h1 {
   float: right;
+  position: relative;
 }
 .radio .wrap-h1 .abs {
-  left: 601px;
-  top: -130px;
-  z-index: -2;
-  margin-left: 0;
+  left: -105px;
+    top: -30px;
+    z-index: -2;
+    margin-left: 0;
 }
 .radio .wrap-h1 h1:after {
   content: '';
@@ -518,11 +528,12 @@ header .header-main {
   color: white;
   position: relative;
   margin-right: 190px;
-  margin-top: -105px;
+      margin-top: -10px;
 }
 .radio .benefits .abs {
   left: 0;
   margin: 0;
+      top: -101px;
 }
 .radio .benefits {
   position: relative;
@@ -579,6 +590,7 @@ header .header-main {
 .radio .radio-list .abs {
   position: absolute;
   left: 20px;
+  top: -105px;
 }
 .radio .radio-item p{
   position: relative;
@@ -766,13 +778,18 @@ header .header-main {
 /*internet*/
 /********************************************************/
 .internet {
-  position: relative;
+  position: static;
   height: 695px;
 }
 .internet .abs {
   position: absolute;
   z-index: -999;
   left: -50%;
+}
+.internet > .abs {
+  width: 100%;
+    height: 695px;
+    left: 0;
 }
 .internet .wrap-h1 {
   position: relative;
@@ -1101,16 +1118,20 @@ header .header-main {
 /*footer*/
 /**************************************************************/
 footer {
-  margin-top: 50px;
-  position: relative;
+/*  margin-top: 50px;*/
+/*  position: static;*/
 }
 footer .abs {
   position: absolute;
   z-index: -999;
-  right: 0;
-  top: -50px;
-  bottom: 0;
-  left: -53%;
+/*  right: 0;*/
+/*  top: -50px;*/
+/*  bottom: 0;*/
+  left: 0;
+}
+footer > .abs {
+  width: 100%;
+  height: 489px;
 }
 footer h1 {
   font-size: 32px;
@@ -1118,6 +1139,7 @@ footer h1 {
   text-transform: uppercase;
   color: white;
   margin-bottom: 10px;
+  padding-top: 50px;
 }
 footer .info-block {
   box-sizing: border-box;
