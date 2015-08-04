@@ -18,12 +18,34 @@ div.wrapper {
 /********************************************************/
 /*header*/
 /********************************************************/
+header .header-main {
+  position: relative;
+}
 .header-bg {
   position: absolute;
+/*
   left: 50%;
   margin-left: -1006px;
+*/
   top: -25px;
   z-index: -999;
+  left: 0;
+  width: 100%;
+  height: 624px;
+}
+.abs-header {
+  position: absolute;
+  z-index: -5;
+  left: -50px;
+  top: -10px;
+  width: 1080px;
+  height: 145px;
+}
+.abs-header-cnt {
+  position: absolute;
+  z-index: -10;
+  top: 40px;
+  left: 120px;
 }
 .logo {
   margin-left: 105px;
@@ -67,10 +89,9 @@ div.wrapper {
 .header-content {
   position: relative;
   display: inline;
-
 }
 .nayword-block {
-  margin-top: 400px;
+  margin-top: 410px;
   margin-left: 310px;
   position: relative;
   z-index: 2;
