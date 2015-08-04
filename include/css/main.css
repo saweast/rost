@@ -231,8 +231,11 @@ header .header-main {
 /********************************************************/
 .why .absolute-image {
   position: absolute;
-  left:50%;
-  margin-left: -1000px;
+/*  left:50%;*/
+/*  margin-left: -1000px;*/
+  left: -50%;
+  width: 150%;
+  height: 1637px;
   z-index: -1000;
 }
 .why .wrap-h1 {
@@ -265,7 +268,7 @@ header .header-main {
   margin-top: 5px;
 }
 .why {
-  position: relative;
+  position: static;
 }
 .guarantee-item {
   position: relative;
