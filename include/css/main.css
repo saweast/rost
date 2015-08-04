@@ -32,6 +32,7 @@ header .header-main {
   left: 0;
   width: 100%;
   height: 624px;
+      min-width: 1048px;
 }
 .abs-header {
   position: absolute;
@@ -120,7 +121,7 @@ header .header-main {
   margin-left: 565px;
   margin-top: 40px;
   font-size: 18px;
-  width: auto;
+  width: 130px;;
   color: white;
 }
 .fb {
@@ -238,6 +239,7 @@ header .header-main {
   width: 100%;
   height: 1637px;
   z-index: -1000;
+      min-width: 1048px;
 }
 .why .wrap-h1 {
   position: relative;
@@ -399,6 +401,7 @@ header .header-main {
   height: 725px;
   right: 0;
   left: 0;
+      min-width: 1048px;
 }
 .tv .wrap-h1 {
   position: relative;
@@ -492,6 +495,7 @@ header .header-main {
   left: 50%;
   margin-left: -1001px;
   z-index: -1000;
+
 /*  top: -105px;*/
 }
 .radio > .abs {
@@ -500,6 +504,7 @@ header .header-main {
     width: 100%;
     margin-left: 0;
     height: 692px;
+  min-width: 1048px;
 }
 .radio .wrap-h1 {
   float: right;
@@ -790,6 +795,7 @@ header .header-main {
   width: 100%;
     height: 695px;
     left: 0;
+      min-width: 1048px;
 }
 .internet .wrap-h1 {
   position: relative;
@@ -1128,10 +1134,12 @@ footer .abs {
 /*  top: -50px;*/
 /*  bottom: 0;*/
   left: 0;
+
 }
 footer > .abs {
   width: 100%;
   height: 489px;
+  min-width: 1048px;
 }
 footer h1 {
   font-size: 32px;
