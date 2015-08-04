@@ -1259,3 +1259,120 @@ footer .info-block {
   color: white;
   text-decoration: none;
 }
+/*************************************************/
+/*scrollBlock*/
+/*************************************************/
+.scroll {
+  display: none;
+  opacity: 0;
+}
+.fixed {
+  display: inline-block;
+  position: fixed;
+  left: 90%;
+  bottom: 10%;
+  transition: 0.5s linear 0.5s;
+  opacity: 1;
+}
+.scroll a {
+
+}
+/****************************************************/
+/*more animation*/
+/****************************************************/
+.abs-header-cnt {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.fb {
+  transition: 1s ease .5s;
+}
+.nayword-block {
+  transition: 1s ease .7s;
+}
+.nayword-block.hidden {
+  margin-left: 9310px;
+}
+.servises .wrap-h1,
+.servises .wrap-h1 .servises-bg{
+  transition: 1s ease .7s;
+}
+.servises .wrap-h1.hidden,
+.servises .wrap-h1.hidden .servises-bg {
+  opacity: 1;
+  margin-left: -9999px;
+  left: -9999px;
+}
+.triangle-block:nth-child(2n) .img-bg {
+  animation: triangle-anm-two 1s infinite alternate linear;
+}
+.triangle-block:nth-child(2n+1) .img-bg {
+  animation: triangle-anm-three 1s infinite alternate linear;
+}
+ .img-main {
+  transform-origin: 50% 0%;
+    animation: triangle-anm 1s infinite alternate linear;
+}
+
+.triangles {
+  transition: 1s ease-out 1s;
+}
+.triangles.hidden {
+  margin-left: -9999px;
+}
+.hidden {
+  opacity: 0;
+}
+.servises-items,
+.servises-items h2 {
+  transition: .5s linear 1.4s;
+}
+.servises-items.hidden,
+.servises-items.hidden h2{
+  font-size: 0;
+}
+@keyframes triangle-anm-two {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}@keyframes triangle-anm-three {
+  0% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes triangle-anm {
+  0% {
+    opacity: 0.9;
+    transform: rotate(-2deg);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.9;
+    transform: rotate(2deg);
+  }
+}
+#why .guarantee-item:first-child {
+      padding-top: 40px;
+}
+.why .wrap-h1 .abs {
+  left: -150px;
+}
+.why .wrap-h1 .abs,
+.why .wrap-h1 h1 {
+  transition: 1s ease .1s;
+}
+.why .wrap-h1.anim .abs {
+  left: -8888px;
+}
+.why .wrap-h1.anim h1 {
+  margin-left: -8888px;
+  display: block;
+}

@@ -6,7 +6,6 @@ $(document).ready(function() {
       ],
       navigation : true
   });
-
   var SmoothScroll = (function() {
     'use strict';
     var $root = $('html, body');
@@ -26,9 +25,48 @@ $(document).ready(function() {
       e.preventDefault();
       smoothScroll($($.attr(this, 'href')));
     });
+    $('.scroll a').click(function(e) {
+      e.preventDefault();
+      smoothScroll($($.attr(this, 'href')));
+    });
         // Public API
     return {
       to: smoothScroll
     };
   })();
+  window.onscroll = function() {
+    if(window.pageYOffset > 500) {
+      $('div.scroll').addClass('fixed');
+    }
+    else $('div.scroll').removeClass('fixed');
+  }
+  // ********************************
+  //adding animation
+  // ********************************
+
+   var why = document.getElementById('why');
+  var whyY = why.getBoundingClientRect().top + window.pageYOffset - 500;
+  window.onscroll = function() {
+    if (window.pageYOffset > whyY) {
+      $('#why .wrap-h1').removeClass('anim');
+    };
+  }
+
+
+  setTimeout(function(){
+    $(".abs-header-cnt").removeClass('hidden');
+    $(".fb").removeClass('hidden');
+    $('.logo img').removeClass('hidden');
+    $('.nayword-block').removeClass('hidden');
+  }, 200);
+  setTimeout(function(){
+    $('.servises .wrap-h1').removeClass('hidden');
+    $('.triangles').removeClass('hidden');
+    $('.servises-items').removeClass('hidden');
+  }, 500);
+  var sv =  document.getElementById('servises');
+  if (sv.getBoundingClientRect().top < window.pageYOffset) {
+//    alert(window.pageYOffset);
+  }
+
 });
