@@ -1701,9 +1701,61 @@ footer .info-block {
 }
 @keyframes bylk {
   0% {
-    transform: rotateY(25deg)
+    transform: rotateY(25deg);
   }
   100% {
-    transform: rotateY(-25deg)
+    transform: rotateY(-25deg);
+  }
+}
+.ww3 {
+  z-index: 10;
+}
+.ww3-1 {
+  position: absolute;
+  top: -280px;
+  left: -650px;
+  z-index: 11;
+  animation: tycha 11s linear infinite;
+  opacity: 0;
+}
+.ww3-2 {
+  position: absolute;
+  top: -200px;
+  left: -750px;
+  z-index: 9;
+  animation: tycha 7s linear infinite;
+  opacity: 0;
+}
+.ww3-3 {
+  position: absolute;
+  top: -190px;
+  left: -850px;
+  z-index: 9;
+  animation: tycha 7s linear infinite;
+  opacity: 0;
+}
+.ww3-4 {
+  position: absolute;
+  top: -220px;
+  left: -80px;
+  z-index: 11;
+  animation: tycha 9s linear infinite;
+  opacity: 0;
+}
+@keyframes tycha {
+ 0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.1
+  }
+  100% {
+    transform: translateX(500px);
   }
 }
