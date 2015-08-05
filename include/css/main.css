@@ -185,6 +185,79 @@ header .header-main {
   top: 70px;
   left: 60px
 }
+.servises:hover .triangles .triangle-block:nth-child(1) .img-main {
+  background: url('/include/images/peoples.png') no-repeat;
+  background-position: center;
+  transition: .3s;
+}
+.triangle-block:nth-child(1) .img-main {
+  background: url('/include/images/peoples-anm.png') no-repeat;
+  height: 71px;
+  width: 87px;
+  transition: .3s;
+}
+.servises:hover .triangles .triangle-block:nth-child(2) .img-main {
+  background: url('/include/images/diagram.png') no-repeat;
+  transition: 0.3s;
+}
+.triangle-block:nth-child(2) .img-main {
+  background: url('/include/images/diagram-anm.png') no-repeat;
+  height: 71px;
+  width: 87px;
+  transition: .3s;
+}
+.servises:hover .triangles .triangle-block:nth-child(3) .img-main {
+  background: url('/include/images/ruport.png') no-repeat;
+  transition: .3s;
+}
+.triangle-block:nth-child(3) .img-main {
+  background: url('/include/images/ruport-anm.png') no-repeat;
+  height: 80px;
+  width: 80px;
+  transition: .3s;
+}
+.servises:hover .triangles .triangle-block:nth-child(4) .img-main {
+  background: url('/include/images/eye.png') no-repeat;
+  transition: .3s;
+}
+.triangle-block:nth-child(4) .img-main {
+  background: url('/include/images/eye-anm.png') no-repeat;
+  height: 59px;
+  width: 99px;
+  transition: .3s;
+}
+.servises:hover .triangles .triangle-block:nth-child(5) .img-main {
+  background: url('/include/images/dog.png') no-repeat;
+  transition: .3s;
+}
+.triangle-block:nth-child(5) .img-main {
+  background: url('/include/images/dog-anm.png') no-repeat;
+  height: 69px;
+  width: 69px;
+  transition: .3s;
+  left: 65px;
+}
+.servises:hover .triangles .triangle-block:nth-child(6) .img-main {
+  background: url('/include/images/paperplain.png') no-repeat;
+  transition: .3s;
+}
+.triangle-block:nth-child(6) .img-main {
+  background: url('/include/images/paperplain-anm.png') no-repeat;
+  height: 78px;
+  width: 81px;
+  transition: .3s;
+}
+.servises:hover .triangles .triangle-block:nth-child(7) .img-main {
+  background: url('/include/images/circles.png') no-repeat;
+  transition: .3s;
+}
+.triangle-block:nth-child(7) .img-main {
+  background: url('/include/images/circles-anm.png') no-repeat;
+  height: 83px;
+  width: 83px;
+  transition: .3s;
+  left: 65px;
+}
 .triangle-block:nth-child(4) .img-main {
   top: 20px;
   left: 55px;
