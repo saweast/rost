@@ -45,12 +45,17 @@ $(document).ready(function() {
   // ********************************
 
    var why = document.getElementById('why');
+   var tv = document.getElementById('tv');
   var whyY = why.getBoundingClientRect().top + window.pageYOffset - 500;
+  var tvY = tv.getBoundingClientRect().top + window.pageYOffset - 500;
   window.onscroll = function() {
     if (window.pageYOffset > whyY) {
       $('#why .wrap-h1').removeClass('anim');
-      $('#why .guarantees').removeClass('hidden');
+      setTimeout(function(){$('#why .guarantees').removeClass('hidden');}, 300)
     };
+    if (window.pageYOffset > tvY) {
+      $('#tv').removeClass('hidden');
+    }
   }
 
 
