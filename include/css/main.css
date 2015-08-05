@@ -1280,10 +1280,12 @@ footer .info-block {
 /****************************************************/
 /*more animation*/
 /****************************************************/
+.abs-header-cnt.hidden {opacity: 0;}
 .abs-header-cnt {
   opacity: 1;
   transition: all 0.5s ease;
 }
+.fb.hidden {opacity: 0;}
 .fb {
   transition: 1s ease .5s;
 }
@@ -1320,9 +1322,7 @@ footer .info-block {
 .triangles.hidden {
   margin-left: -9999px;
 }
-.hidden {
-  opacity: 0;
-}
+
 .servises-items,
 .servises-items h2 {
   transition: .5s linear 1.4s;
@@ -1375,4 +1375,63 @@ footer .info-block {
 .why .wrap-h1.anim h1 {
   margin-left: -8888px;
   display: block;
+}
+.why .guarantees .guarantee-item:nth-child(1) .wrap-for-animate,
+.why .guarantees .guarantee-item:nth-child(1) .abs,
+.why .guarantees .guarantee-item:nth-child(1) p {
+  transition: .5s ease .3s;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(1) .wrap-for-animate {
+  margin-left: -9999px;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(1) .abs {
+  right: -9999px;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(1) p {
+  right: -9999px;
+}
+
+.why .guarantees .guarantee-item:nth-child(2) .wrap-for-animate img,
+.why .guarantees .guarantee-item:nth-child(2) .abs,
+.why .guarantees .guarantee-item:nth-child(2) p {
+  transition: .5s ease .8s;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(2) .wrap-for-animate img{
+  margin-right: -9999px;
+}
+.guarantees.hidden .guarantee-item:nth-child(2) .abs {
+  margin-left: -9999px;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(2) p {
+  left: -9999px;
+}
+
+.why .guarantees .guarantee-item:nth-child(3) .wrap-for-animate,
+.why .guarantees .guarantee-item:nth-child(3) .abs,
+.why .guarantees .guarantee-item:nth-child(3) p {
+  transition: .5s ease 1.3s;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(3) .wrap-for-animate {
+  margin-left: -9999px;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(3) .abs {
+  right: -9999px;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(3) p {
+  right: -9999px;
+}
+
+.why .guarantees .guarantee-item:nth-child(4) .wrap-for-animate img,
+.why .guarantees .guarantee-item:nth-child(4) .abs,
+.why .guarantees .guarantee-item:nth-child(4) p {
+  transition: .5s ease 1.8s;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(4) .wrap-for-animate img{
+  margin-right: -9999px;
+}
+.guarantees.hidden .guarantee-item:nth-child(4) .abs {
+  margin-left: -9999px;
+}
+.why .guarantees.hidden .guarantee-item:nth-child(4) p {
+  left: -9999px;
 }

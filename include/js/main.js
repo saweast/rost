@@ -49,6 +49,7 @@ $(document).ready(function() {
   window.onscroll = function() {
     if (window.pageYOffset > whyY) {
       $('#why .wrap-h1').removeClass('anim');
+      $('#why .guarantees').removeClass('hidden');
     };
   }
 
@@ -63,7 +64,7 @@ $(document).ready(function() {
     $('.servises .wrap-h1').removeClass('hidden');
     $('.triangles').removeClass('hidden');
     $('.servises-items').removeClass('hidden');
-  }, 500);
+  }, 200);
   var sv =  document.getElementById('servises');
   if (sv.getBoundingClientRect().top < window.pageYOffset) {
 //    alert(window.pageYOffset);
