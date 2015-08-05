@@ -1535,3 +1535,99 @@ footer .info-block {
     transform:
   }
 }
+/*why we animation on first image*/
+.item-1 {
+  position: absolute;
+  left: -600px;
+  top: -25px;
+  opacity: 0;
+  transition: 1s;
+  z-index: 15;
+  animation: car1 5s linear 2s infinite;
+}
+@keyframes car1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.1
+  }
+  100% {
+    transform: translateX(500px);
+  }
+}
+@keyframes car2 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.1
+  }
+  100% {
+    transform: translateX(-300px);
+  }
+}
+.item-2 {
+  position: absolute;
+  left: -320px;
+  top: -45px;
+  opacity: 0;
+  transition: 1s;
+  z-index: 12;
+  animation: car2 5s linear 1s infinite;
+}
+.item-3 {
+  position: absolute;
+  left: -720px;
+  top: -10px;
+  opacity: 0;
+  transition: 1s;
+  z-index: 15;
+  animation: car1 5s linear 1s infinite;
+}
+.item-4 {
+  position: absolute;
+  left: -517px;
+  top: -47px;
+  opacity: 1;
+  transition: 1s;
+  z-index: 16;
+  transform-origin: 50% 0%;
+  animation: cifer 3s ease alternate infinite;
+}
+@keyframes cifer {
+  0% {
+    transform: rotate(10deg)
+  }
+  100% {
+    transform: rotate(-2deg)
+  }
+}
+.item-5 {
+  position: absolute;
+  left: -10px;
+  top: -95px;
+  opacity: 1;
+  transition: 1s;
+  z-index: 14;
+}
+.item-6 {
+  position: absolute;
+  left: -40px;
+  top: -60px;
+  opacity: 1;
+  transition: 1s;
+  z-index: 15;
+}
