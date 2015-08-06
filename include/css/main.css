@@ -1861,3 +1861,12 @@ footer .info-block:hover {
 .info-block.active .street {
   width: 125%;
 }
+/***************************************************/
+/*header animation*/
+/***************************************************/
+.ppl-item-1 {
+  position: absolute;
+  top: 170px;
+  left: 180px;
+  z-index: -11;
+}
