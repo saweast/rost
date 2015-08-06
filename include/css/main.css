@@ -45,7 +45,7 @@ header .header-main {
 .abs-header-cnt {
   position: absolute;
   z-index: -10;
-  top: 40px;
+  top: 80px;
   left: 120px;
 }
 .logo {
@@ -1244,7 +1244,7 @@ footer .info-block:hover {
   opacity: 1;
   transition: .5s;
 }
-.info-block:before {
+.info-block:befosore {
   content: '';
   height: 38px;
   width: 21px;
