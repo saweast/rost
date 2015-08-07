@@ -1244,7 +1244,7 @@ footer .info-block:hover {
   opacity: 1;
   transition: .5s;
 }
-.info-block:befosore {
+.info-block:before {
   content: '';
   height: 38px;
   width: 21px;
@@ -2128,18 +2128,16 @@ footer .info-block:hover {
   position: absolute;
   left: 559px;
   top: 145px;
-  z-index: -18;
-  animation: red-head 2.5s linear alternate infinite;
+  z-index: 18;
+  animation: red-head 1.5s linear alternate infinite;
   transform-origin: 50% 100%;
 }
 @keyframes red-head {
   0% {
-  }
-  40% {
-    transform: rotateX(-25deg)
+    transform: rotate(-5deg)
   }
   100% {
-
+    transform: rotate(5deg)
   }
 }
 .ppl-item-9 {
@@ -2174,15 +2172,15 @@ footer .info-block:hover {
   left: 666px;
   top: 283px;
   z-index: -18;
-  animation: leg .357s linear alternate infinite;
+  animation: leg 2s linear alternate infinite;
   transform-origin: 0% 0%;
 }
 @keyframes leg {
   0% {
-    transform: translateY(-5px)
+    transform: rotate(-5deg);
   }
-  50% {
-    transform: translateY(0px)
+  100% {
+    transform: rotate(-0deg);
   }
 }
 /***************************************/
@@ -2202,4 +2200,8 @@ footer .info-block:hover {
 }
 .fb:hover {
   background-image: url('/include/images/fb-hver.png');
+}
+/*header fix*/
+main {
+  margin-top: -40px;
 }
