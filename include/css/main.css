@@ -1785,6 +1785,77 @@ footer .info-block:hover {
     transform: translateX(500px);
   }
 }
+.ww3-man1,
+.ww3-man2,
+.ww3-man3,
+.ww3-man4,
+.ww3-man5,
+.ww3-man6,
+.ww3-man7 {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  z-index: 12;
+  opacity: 0;
+  animation: walk 4s linear 1s infinite;
+}
+.ww3-man1 {
+  top: 265px;
+  left: 600px;
+}
+.ww3-man2 {
+  top: 265px;
+  left: 605px;
+  animation-duration: 3.5s;
+  animation-delay: 2s;
+}
+.ww3-man3 {
+  top: 255px;
+  left: 595px;
+  animation-duration: 3.2s;
+  animation-delay: 1.5s;
+}
+.ww3-man4 {
+  top: 255px;
+  left: 605px;
+  animation-duration: 3.5s;
+  animation-delay: 1.8s;
+}
+.ww3-man5 {
+  top: 250px;
+  left: 600px;
+  animation-duration: 5.5s;
+  animation-delay: 0s;
+}
+.ww3-man6 {
+  top: 255px;
+  left: 605px;
+  animation-duration: 5.5s;
+  animation-delay: .2s;
+}
+.ww3-man7 {
+  top: 255px;
+  left: 605px;
+  animation-duration: 3.5s;
+  animation-delay: .2s;
+}
+@keyframes walk {
+  0% {
+    opacity: 0
+  }
+  2% {
+    opacity: 1
+  }
+  70% {
+   transform: translate(-420px, -5px);
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-500px, -60px);
+  }
+}
 /*why we animation on third image*/
 .ww4-1 {
   position: absolute;
@@ -1830,8 +1901,8 @@ footer .info-block:hover {
 }
 .ww4-7 {
   position: absolute;
-  top: 150px;
-  left: 465px;
+  top: 160px;
+  left: 468px;
   transform-origin: 50% 70%;
   animation: trees 6s linear alternate infinite;
 }
@@ -1855,6 +1926,49 @@ footer .info-block:hover {
   }
   100% {
     transform: skewX(-5deg);
+  }
+}
+.ww4-people1 {
+  position: absolute;
+  top: 50px;
+  left: 390px;
+  z-index: 30;
+  animation: ppls .8s ease-in-out 0s infinite alternate;
+}
+.ww4-people2 {
+  position: absolute;
+  top: 105px;
+  left: 600px;
+  z-index: 30;
+  animation: ppls .8s ease-in-out .1s infinite alternate;
+}
+.ww4-people3 {
+  position: absolute;
+  top: -10px;
+  left: 698px;
+  z-index: 30;
+  animation: ppls .8s ease-in-out 0.2s infinite alternate;
+}
+.ww4-people4 {
+  position: absolute;
+  top: -205px;
+  left: 293px;
+  z-index: 30;
+  animation: ppls .8s ease-in-out 0.3s infinite alternate;
+}
+.ww4-people5 {
+  position: absolute;
+  top: -233px;
+  left: 295px;
+  z-index: 30;
+  animation: ppls .8s ease-in-out 0.4s infinite alternate;
+}
+@keyframes ppls {
+  0% {
+    transform: translateY(-5px)
+  }
+  100% {
+    transform: translateY(5px)
   }
 }
 /**************************/
@@ -2071,6 +2185,9 @@ footer .info-block:hover {
     transform: translateY(0px)
   }
 }
+/***************************************/
+/*facebook animatio*/
+/****************************************/
 .fb {
   width: 159px;
   height: 67px;
