@@ -349,8 +349,8 @@ header .header-main {
 .guarantee-item {
   position: relative;
 }
-.wrap-for-animate:nth-child(1) div img {
-  margin-left: -10px
+.wrap-for-animate:nth-child(1) div img:nth-child(1) {
+  margin-left: -10px;
   z-index: 12;
   position: relative;
 }
@@ -1376,7 +1376,7 @@ footer .info-block:hover {
 /****************************************************/
 /*more animation*/
 /****************************************************/
-.abs-header-cnt.hidden {opacity: 0;}
+.abs-header-cnt.hidden {opacity: 1;}
 .abs-header-cnt {
   opacity: 1;
   transition: all 0.5s ease;
@@ -1561,8 +1561,8 @@ footer .info-block:hover {
 /*why we animation on first image*/
 .item-1 {
   position: absolute;
-  left: -600px;
-  top: -25px;
+  left: 00px;
+  top: 268px;
   opacity: 0;
   transition: 1s;
   z-index: 15;
@@ -1604,8 +1604,8 @@ footer .info-block:hover {
 }
 .item-2 {
   position: absolute;
-  left: -320px;
-  top: -45px;
+  left: 350px;
+  top: 255px;
   opacity: 0;
   transition: 1s;
   z-index: 12;
@@ -1613,8 +1613,8 @@ footer .info-block:hover {
 }
 .item-3 {
   position: absolute;
-  left: -720px;
-  top: -10px;
+  left: 20px;
+  top: 288px;
   opacity: 0;
   transition: 1s;
   z-index: 15;
@@ -1622,8 +1622,8 @@ footer .info-block:hover {
 }
 .item-4 {
   position: absolute;
-  left: -517px;
-  top: -47px;
+  left: 268px;
+  top: 100px;
   opacity: 1;
   transition: 1s;
   z-index: 16;
@@ -1640,16 +1640,16 @@ footer .info-block:hover {
 }
 .item-5 {
   position: absolute;
-  left: -10px;
-  top: -95px;
+  left: 10px;
+  top: 245px;
   opacity: 1;
   transition: 1s;
   z-index: 14;
 }
 .item-6 {
   position: absolute;
-  left: -40px;
-  top: -60px;
+  left: 225px;
+  top: 267px;
   opacity: 1;
   transition: 1s;
   z-index: 15;
@@ -1730,38 +1730,41 @@ footer .info-block:hover {
     transform: rotateY(-25deg);
   }
 }
+.wrap-for-animate {
+  position: relative;
+}
 .ww3 {
   z-index: 10;
 }
 .ww3-1 {
   position: absolute;
-  top: -280px;
-  left: -650px;
-  z-index: 11;
+  top: 0px;
+  left: -50px;
+  z-index: 13;
   animation: tycha 11s linear infinite;
   opacity: 0;
 }
 .ww3-2 {
   position: absolute;
-  top: -200px;
-  left: -750px;
-  z-index: 9;
-  animation: tycha 7s linear infinite;
+  top: 80px;
+  left: -50px;
+  z-index: 11;
+  animation: tycha 5s linear infinite;
   opacity: 0;
 }
 .ww3-3 {
   position: absolute;
-  top: -190px;
-  left: -850px;
+  top: 50px;
+  left: -50px;
   z-index: 9;
   animation: tycha 7s linear infinite;
   opacity: 0;
 }
 .ww3-4 {
   position: absolute;
-  top: -220px;
-  left: -80px;
-  z-index: 11;
+  top: 100px;
+  left: -50px;
+  z-index: 13;
   animation: tycha 9s linear infinite;
   opacity: 0;
 }
@@ -2028,7 +2031,7 @@ footer .info-block:hover {
 .ppl-item-9 {
   position: absolute;
   left: 659px;
-  top: 233px;
+  top: 235px;
   z-index: -18;
   animation: hands-head .7s linear alternate infinite;
   transform-origin: 100% 50%;
@@ -2036,7 +2039,7 @@ footer .info-block:hover {
 .ppl-item-10 {
   position: absolute;
   left: 659px;
-  top: 233px;
+  top: 235px;
   z-index: -18;
   animation: hands-head .5s linear alternate infinite;
   transform-origin: 100% 50%;
@@ -2051,4 +2054,35 @@ footer .info-block:hover {
   100% {
 
   }
+}
+.ppl-item-11 {
+  position: absolute;
+  left: 666px;
+  top: 283px;
+  z-index: -18;
+  animation: leg .357s linear alternate infinite;
+  transform-origin: 0% 0%;
+}
+@keyframes leg {
+  0% {
+    transform: translateY(-5px)
+  }
+  50% {
+    transform: translateY(0px)
+  }
+}
+.fb {
+  width: 159px;
+  height: 67px;
+  background-image: url('/include/images/fb.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.fb a {
+  width: inherit;
+  height: inherit;
+  display: block
+}
+.fb:hover {
+  background-image: url('/include/images/fb-hver.png');
 }
