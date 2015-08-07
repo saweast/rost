@@ -64,7 +64,7 @@ header .header-main {
 .contact p {
   color: #f0047f;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 20px;
 }
 .contact {
   display: inline-block;
@@ -2176,7 +2176,7 @@ footer .info-block:hover {
   transform-origin: 0% 0%;
 }
 @keyframes leg {
-  0% {
+  0% {des
     transform: rotate(-5deg);
   }
   100% {
