@@ -56,7 +56,7 @@ header .header-main {
 .contact p:before {
   content: "";
   height: 14px;
-  width: 14px;
+  width: 1cut 4px;
   background-image: url("/include/images/phone.png");
   display: inline-block;
   margin-right: 10px;
