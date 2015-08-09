@@ -2205,3 +2205,103 @@ footer .info-block:hover {
 main {
   margin-top: -40px;
 }
+/**********************************************/
+/*tv animation*/
+/************************************************/
+.tv .tv-family {
+  position: relative;
+  transition: 1s;
+}
+.tv.hidden .tv-family {
+  margin-left: -9999px;
+  transition: 1s;
+}
+.tv .tv-garantees {
+  transition: 1s;
+}
+.tv.hidden .tv-garantees {
+  margin-left: 9999px;
+  transition: 1s;
+}
+.tv .leader-logo {
+  animation: leader 2s linear alternate infinite;
+}
+.tv .leader-logo:nth-child(1) {
+  animation: leader 1.5s linear .1s alternate infinite;
+}
+.tv .leader-logo:nth-child(2) {
+  animation: leader 1.5s linear .2s alternate infinite;
+}
+.tv .leader-logo:nth-child(3) {
+  animation: leader 1.5s linear .3s alternate infinite;
+}
+.tv .leader-logo:nth-child(4) {
+  animation: leader 1.5s linear .1s alternate infinite;
+}
+.tv .leader-logo:nth-child(5) {
+  animation: leader 1.5s linear .2s alternate infinite;
+}
+.tv .leader-logo:nth-child(6) {
+  animation: leader 1.5s linear .3s alternate infinite;
+}
+.tv .leader-logo:nth-child(7) {
+  animation: leader 1.5s linear .1s alternate infinite;
+}
+@keyframes leader {
+  0% {
+    transform: translateY(-5px)
+  }
+  100% {
+    transform: translateY(5px)
+  }
+}
+.tv-family-part-1 {
+  position: absolute;
+  left: 48px;
+  top: 292px;
+  transform-origin: 100% 50%;
+  animation: dad-leg 1s linear infinite alternate;
+}
+@keyframes dad-leg {
+  0% {
+    transform: rotate()
+  }
+  100% {
+    transform: rotate(5deg)
+  }
+}
+.tv-family-part-2 {
+  position: absolute;
+  left: 185px;
+  top: 122px;
+  transform-origin: 0% 0%;
+  animation: dad-leg 1s linear infinite alternate;
+}
+.tv-family-part-3 {
+  position: absolute;
+  left: 139px;
+  top: 194px;
+  transform-origin: 0% 0%;
+  animation: dad-leg 1s linear infinite alternate;
+}
+.tv-family-part-4 {
+  position: absolute;
+  left: 257px;
+  top: 24px;
+  transform-origin: 20% 70%;
+  animation: dad-leg 1s linear infinite alternate;
+}
+.tv-family-part-5 {
+  position: absolute;
+  left: 415px;
+  top: 336px;
+  transform-origin: 0% 100%;
+  animation: dad-leg 1s linear infinite alternate;
+}
+.tv-family-part-6 {
+  position: absolute;
+  left: 389px;
+  top: 375px;
+  transform-origin: 50% 50%;
+  animation: dad-leg 1s linear infinite alternate;
+}
