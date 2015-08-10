@@ -4,7 +4,8 @@ $(document).ready(function() {
       itemsCustom : [
         [0, 4],
       ],
-      navigation : true
+      navigation : true,
+      autoPlay: 1500
   });
   var SmoothScroll = (function() {
     'use strict';
@@ -44,10 +45,21 @@ $(document).ready(function() {
   //adding animation
   // ********************************
 
-   var why = document.getElementById('why');
-   var tv = document.getElementById('tv');
+  var why = document.getElementById('why');
   var whyY = why.getBoundingClientRect().top + window.pageYOffset - 500;
-  var tvY = tv.getBoundingClientRect().top + window.pageYOffset - 500;
+
+  var tv = document.getElementById('tv');
+  var tvY = tv.getBoundingClientRect().top + window.pageYOffset + 200;
+
+  var radio = document.getElementById('radio');
+  var radioY = radio.getBoundingClientRect().top + window.pageYOffset + 200;
+
+  var internet = document.getElementById('internet');
+  var internetY = internet.getBoundingClientRect().top + window.pageYOffset + 200;
+
+  var clients = document.getElementById('clients');
+  var clientsY = clients.getBoundingClientRect().top + window.pageYOffset + 200;
+
   window.onscroll = function() {
     if (window.pageYOffset > whyY) {
       $('#why .wrap-h1').removeClass('anim');
@@ -55,6 +67,15 @@ $(document).ready(function() {
     };
     if (window.pageYOffset > tvY) {
       $('#tv').removeClass('hidden');
+    }
+    if (window.pageYOffset > radioY) {
+      $('#radio').removeClass('hidden');
+    }
+    if (window.pageYOffset > internetY) {
+      $('#internet').removeClass('hidden');
+    }
+    if (window.pageYOffset > clientsY) {
+      $('#clients').removeClass('hidden');
     }
   }
 
