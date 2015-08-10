@@ -46,24 +46,24 @@ $(document).ready(function() {
   // ********************************
 
   var why = document.getElementById('why');
-  var whyY = why.getBoundingClientRect().top + window.pageYOffset - 500;
+  var whyY = why.getBoundingClientRect().top + window.pageYOffset - 600;
 
   var tv = document.getElementById('tv');
-  var tvY = tv.getBoundingClientRect().top + window.pageYOffset + 200;
+  var tvY = tv.getBoundingClientRect().top + window.pageYOffset - 400;
 
   var radio = document.getElementById('radio');
-  var radioY = radio.getBoundingClientRect().top + window.pageYOffset + 200;
+  var radioY = radio.getBoundingClientRect().top + window.pageYOffset - 400;
 
   var internet = document.getElementById('internet');
-  var internetY = internet.getBoundingClientRect().top + window.pageYOffset + 200;
+  var internetY = internet.getBoundingClientRect().top + window.pageYOffset - 400;
 
   var clients = document.getElementById('clients');
-  var clientsY = clients.getBoundingClientRect().top + window.pageYOffset + 200;
+  var clientsY = clients.getBoundingClientRect().top + window.pageYOffset - 400;
 
   window.onscroll = function() {
     if (window.pageYOffset > whyY) {
       $('#why .wrap-h1').removeClass('anim');
-      setTimeout(function(){$('#why .guarantees').removeClass('hidden');}, 300)
+      setTimeout(function(){$('#why .guarantees').removeClass('hidden');}, 0)
     };
     if (window.pageYOffset > tvY) {
       $('#tv').removeClass('hidden');
