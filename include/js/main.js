@@ -46,19 +46,19 @@ $(document).ready(function() {
   // ********************************
 
   var why = document.getElementById('why');
-  var whyY = why.getBoundingClientRect().top + window.pageYOffset - 600;
+  var whyY = why.getBoundingClientRect().top + window.pageYOffset - 800;
 
   var tv = document.getElementById('tv');
-  var tvY = tv.getBoundingClientRect().top + window.pageYOffset - 400;
+  var tvY = tv.getBoundingClientRect().top + window.pageYOffset - 600;
 
   var radio = document.getElementById('radio');
-  var radioY = radio.getBoundingClientRect().top + window.pageYOffset - 400;
+  var radioY = radio.getBoundingClientRect().top + window.pageYOffset - 600;
 
   var internet = document.getElementById('internet');
-  var internetY = internet.getBoundingClientRect().top + window.pageYOffset - 400;
+  var internetY = internet.getBoundingClientRect().top + window.pageYOffset - 600;
 
   var clients = document.getElementById('clients');
-  var clientsY = clients.getBoundingClientRect().top + window.pageYOffset - 400;
+  var clientsY = clients.getBoundingClientRect().top + window.pageYOffset - 600;
 
   window.onscroll = function() {
     if (window.pageYOffset > whyY) {
